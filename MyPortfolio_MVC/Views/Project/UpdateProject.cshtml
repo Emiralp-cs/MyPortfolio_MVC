@@ -1,0 +1,55 @@
+﻿@model MyPortfolio_MVC.Models.TblProject
+@{
+    ViewBag.Title = "UpdateProject";
+    Layout = "~/Views/AdminLayout/Layout.cshtml";
+}
+
+<h2>Proje Güncelleme Sayfası</h2>
+
+<form method="post">
+
+    @Html.HiddenFor(x => x.ProjectId)
+
+    <label>Proje Adı:</label>
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Name, "", new { @class = "text-danger" })
+
+    <br />
+
+    
+
+    <label>Kategori</label>
+    @Html.DropDownListFor(x => x.CategoryId, (List<SelectListItem>)ViewBag.Categories, new { @class = "form-control bg-dark" })
+    @{
+        //24.satır önemli yeni bilgi
+    }
+    @Html.ValidationMessageFor(x => x.CategoryId, "", new { @class = "text-danger" })
+
+    <br />
+    <label>Açıklama</label>
+    @Html.TextAreaFor(x => x.Description, 5, 1, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Description, "", new { @class = "text-danger" })
+
+
+    <br />
+    <label>Github Url</label>
+    @Html.TextBoxFor(x => x.GithubUrl, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.GithubUrl, "", new { @class = "text-danger" })
+     <br />
+    <label>Image Url</label>
+    @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.ImageUrl, "", new { @class = "text-danger" })
+
+    <br />
+
+    <button class="btn btn-outline-success" style="margin:10px">Değişiklikleri Kaydet</button>
+
+
+
+
+
+
+
+
+</form>
+

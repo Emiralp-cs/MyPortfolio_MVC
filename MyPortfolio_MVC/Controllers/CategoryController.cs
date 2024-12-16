@@ -12,6 +12,8 @@ namespace MyPortfolio_MVC.Controllers
         MyPortfolioEntities db = new MyPortfolioEntities();
 
         public ActionResult Index()
+
+
         {
             var values = db.TblCategories.ToList();
             return View(values);
@@ -27,6 +29,38 @@ namespace MyPortfolio_MVC.Controllers
             db.TblCategories.Add(category);
             db.SaveChanges();
             return RedirectToAction("Index");
+        }
+
+        public ActionResult DeleteCategory(int id)
+        {
+            var value = db.TblCategories.Find(id);
+
+            var projectExist = db.TblProjects.Where(x => x.CategoryId == value.CategoryId).Any();
+            if (projectExist)
+            {
+                TempData["categoryDeleteError"] = "Bu kategoriye ait proje bulunmaktadır. Bu Kategoriyi Silemezsiniz.";
+                return RedirectToAction("Index");
+            }
+            
+            db.TblCategories.Remove(value);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public ActionResult UpdateCategory(int id)
+        {
+            var value = db.TblCategories.Find(id);
+            return View(value);
+        }
+        [HttpPost]
+        public ActionResult UpdateCategory(TblCategory model)
+        {
+            var value = db.TblCategories.Find(model.CategoryId);
+            value.Name = model.Name;
+            db.SaveChanges();
+            return RedirectToAction("Index");
+
         }
 
     }
