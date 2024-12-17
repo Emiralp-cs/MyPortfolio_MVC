@@ -21,7 +21,7 @@ namespace MyPortfolio_MVC.Controllers
 
         public ActionResult DeleteEducation(int id)
         {
-            var silinecekdeger = db.TblEducations.Find(id);
+            var silinecekdeger = db.TblEducations.Find(id);//
             db.TblEducations.Remove(silinecekdeger);
             db.SaveChanges();//bu metot işlemleri kaydeder ve database de kaç tane satırın etkilendiğini döner.
             return RedirectToAction("Index");
