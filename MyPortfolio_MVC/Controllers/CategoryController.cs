@@ -26,6 +26,12 @@ namespace MyPortfolio_MVC.Controllers
         [HttpPost]
         public ActionResult CreateCategory(TblCategory category)
         {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+
+
             db.TblCategories.Add(category);
             db.SaveChanges();
             return RedirectToAction("Index");
@@ -49,13 +55,17 @@ namespace MyPortfolio_MVC.Controllers
 
         [HttpGet]
         public ActionResult UpdateCategory(int id)
-        {
+        {   
             var value = db.TblCategories.Find(id);
             return View(value);
         }
         [HttpPost]
         public ActionResult UpdateCategory(TblCategory model)
         {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
             var value = db.TblCategories.Find(model.CategoryId);
             value.Name = model.Name;
             db.SaveChanges();

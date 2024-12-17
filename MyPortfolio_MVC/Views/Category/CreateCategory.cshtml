@@ -9,7 +9,8 @@
 
 <form method="post">
     <label>Kategori Adı</label>
-    <input type="text" name="Name" class="form-control"/>
+    @Html.TextBoxFor(x => x.Name,new {@class = "form-control"})
+    @Html.ValidationMessageFor(x => x.Name,"",new {@class = "text-danger"})
     <br />
     <button class="btn btn-primary">Kaydet</button>
 </form>

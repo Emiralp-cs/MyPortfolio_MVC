@@ -6,13 +6,14 @@
 
 <h2>Kategori Güncelleme Sayfası</h2>
 
-<form method="post" >
+<form method="post">
     @Html.HiddenFor(x => x.CategoryId)
     <label>Kategori Adı</label>
-    @Html.TextBoxFor(x => x.Name,new {@class="form-control"})
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Name, "", new { @class = "text-danger"})
+
     <br />
     <button class="btn btn-outline-success">Güncelle</button>
 
 </form>
 
-    
