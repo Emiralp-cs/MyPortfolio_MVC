@@ -1,0 +1,28 @@
+﻿@model List<MyPortfolio_MVC.Models.TblExpertis>
+
+
+<div class="row about-expertise" data-animate-block>
+    <div class="column lg-12">
+
+        <h2 class="text-pretitle with-line" data-animate-el>Uzmanlık Alanlarım</h2>
+
+        <div class="skills-grid" data-animate-el>
+
+            <div class="container" style="flex-wrap: wrap; display: flex; justify-content: space-around;">
+
+                @foreach (var item in Model)
+                {
+                    <div style="width: 250px; height:250px;   padding: 10px; text-align: center; ">
+                        <img src="~/Templates/darkpan-1.0.0/img/" >
+                        <h4 style="margin-top:0px">@item.Title</h4>
+                        <p>deneme</p>
+
+                    </div>
+
+                }
+
+            </div>
+        </div>
+
+    </div>
+</div>
