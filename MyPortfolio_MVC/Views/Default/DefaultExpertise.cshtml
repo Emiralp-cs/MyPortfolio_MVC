@@ -4,7 +4,7 @@
 <div class="row about-expertise" data-animate-block>
     <div class="column lg-12">
 
-        <h2 class="text-pretitle with-line" data-animate-el>Uzmanlık Alanlarım</h2>
+        <h2 class="text-pretitle with-line" style="margin-bottom:100px" data-animate-el>Uzmanlık Alanlarım</h2>
 
         <div class="skills-grid" data-animate-el>
 
@@ -12,16 +12,28 @@
 
                 @foreach (var item in Model)
                 {
-                    <div style="width: 250px; height:250px;   padding: 10px; text-align: center; ">
-                        <img src="~/Templates/darkpan-1.0.0/img/" >
+                    <div style="width: 250px; height:80px;   padding: 10px; text-align: center; ">
+
                         <h4 style="margin-top:0px">@item.Title</h4>
-                        <p>deneme</p>
+
+
+                        <link rel="stylesheet">
+
+
+                        <div class="progress-bar" style=" height: 10px; /* Çubuğun yüksekliği */ background-color:black; /* Çubuğun arka plan rengi */ border-radius: 5px; /* Çubuğun köşelerinin yuvarlaklığı */">
+                            <div class="progress-bar-fill" style="width:@(item.BarHeight + "%"); height: 100%; background-color: #ffcc00;  border-radius: 5px 5px 5px 5px; ">
+
+                            </div>
+                        </div>
+
 
                     </div>
 
                 }
 
+
             </div>
+            <p style="margin-bottom:50px"></p>
         </div>
 
     </div>

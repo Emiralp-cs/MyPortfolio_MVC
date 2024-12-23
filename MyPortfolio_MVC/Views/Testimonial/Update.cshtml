@@ -1,0 +1,38 @@
+﻿@model MyPortfolio_MVC.Models.TblTestimonial
+
+
+@{
+    ViewBag.Title = "Update";
+    Layout = "~/Views/AdminLayout/Layout.cshtml";
+}
+
+<h2>Referans Güncelleme Sayfası</h2>
+
+<form method="post">
+    @Html.HiddenFor(x => x.TestimonialId)
+
+
+    <label>Ad Soyad</label>
+    <input type="text" name="NameSurname" value="@Model.NameSurname" class="form-control"/>
+
+    <br />
+
+    <label>Başlık</label>
+    <input type="text" name="Title" value="@Model.Title" class="form-control"/>
+    
+    <br />
+
+    <label>Resim Url</label>
+    <input type="text" name="ImageUrl" value="@Model.ImageUrl" class="form-control" />
+
+    <br />
+
+    <label>Açıklama</label>
+    @Html.TextAreaFor(x=> x.Comment,5,1,new {@class = "form-control"})
+
+    <br />
+    <button class="btn btn-outline-success">Güncelle</button>
+
+
+</form>
+

@@ -1,0 +1,34 @@
+﻿@model List<MyPortfolio_MVC.Models.TblContact>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/Layout.cshtml";
+    int count = 0;
+}
+
+<h2>İletişim Bilgileri</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Telefon</th>
+        <th>Email</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            @count++;
+            <td>@count</td>
+            <td>@item.Phone</td>
+            <td>@item.Email</td>
+            <td><a href="/Contacts/Delete/@item.ContactId" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="/Contacts/Update/@item.ContactId" class="btn btn-outline-info">Güncelle</a></td>
+        </tr>
+    }
+</table>
+
+<a href="/Contacts/Add" class="btn btn-outline-success">Yeni İletişim Bilgisi Ekle</a>
+
+

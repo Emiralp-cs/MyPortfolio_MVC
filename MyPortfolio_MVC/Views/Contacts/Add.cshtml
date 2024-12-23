@@ -1,0 +1,23 @@
+﻿@model MyPortfolio_MVC.Models.TblContact
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/AdminLayout/Layout.cshtml";
+}
+
+<h2>İletişim Bilgisi Ekleme Sayfası</h2>
+
+
+<form method="post">
+
+    <label>Telefon</label>
+    <input type="tel" name="Phone" class="form-control" />
+
+    <br />
+
+    <label>Email</label>
+    <input type="email" name="Email" class="form-control" />
+
+    <button class="btn btn-outline-info">Kaydet</button>
+
+</form>
+

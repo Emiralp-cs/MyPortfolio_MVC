@@ -1,0 +1,61 @@
+﻿@model MyPortfolio_MVC.Models.TblExperience
+@{
+    ViewBag.Title = "UpdateExperience";
+    Layout = "~/Views/AdminLayout/Layout.cshtml";
+    //Okul
+    //bölüm
+    //başlama
+    //bitiş
+    //açıklama
+    //derece
+    //kaydet
+}
+
+<h2>Eğitim Güncelle Sayfası</h2>
+
+<form method="post">
+    @Html.HiddenFor(x => x.ExperienceId)
+
+    <label>Şirket Adı</label>
+    @Html.TextBoxFor(x => x.CompanyName, new { @class = "form-control", style = "border-color:white" })
+
+
+    <br />
+
+    <label>Çalıştığınız Pozisyon</label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control", style = "border-color:white" })
+
+    <br />
+
+    <label>Başlama Tarihi</label>
+    <input type="datetime" name="StartDate" class="form-control" value="@Model.StartDate.Value.ToString("dd.MM.yyyy")" style="border-color:white;background-color:white" />
+
+
+    <br />
+
+
+    @if (Model.EndDate.HasValue)
+    {
+        <label>Bitiş Tarihi</label>
+        <input type="datetime" name="EndDate" class="form-control" value="@Model.EndDate.Value.ToString("dd.MM.yyyy")" style="border-color:white;background-color:white" />
+
+    }
+    else
+    {
+        <label>Bitiş Tarihi</label><span><strong> (Devam ediyor)</strong></span>
+        <input type="date" name="EndDate" class="form-control" style="border-color:white;background-color:white" />
+
+
+    }
+    <br />
+
+    <label>Açıklama</label>
+    @Html.TextAreaFor(x => x.Description, 5, 1, new { @class = "form-control" })
+
+
+    
+    <br />
+
+    <button class="btn btn-outline-primary" style="margin:10px;margin-left:0px">Kaydet</button>
+</form>
+

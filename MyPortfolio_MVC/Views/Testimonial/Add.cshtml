@@ -1,0 +1,35 @@
+﻿@model MyPortfolio_MVC.Models.TblTestimonial
+
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/AdminLayout/Layout.cshtml";
+}
+
+<h2>Referans Ekleme Sayfası</h2>
+
+<form method="post">
+
+    <label>Ad Soyad</label>
+    <input type="text" name="NameSurname" class="form-control"/>
+
+    <br />
+
+    <label>Başlık</label>
+    <input type="text" name="Title" class="form-control"/>
+    
+    <br />
+
+    <label>ImageUrl</label>
+    <input type="text" name="ImageUrl" class="form-control"/>
+
+    <br />
+
+    <label>Açıklama</label>
+    @Html.TextAreaFor(x=> x.Comment,5,1,new {@class = "form-control"})
+
+    <br />
+
+    <button class="btn btn-success">Ekle</button>
+
+</form>
+

@@ -1,0 +1,25 @@
+﻿@model MyPortfolio_MVC.Models.TblContact
+@{
+    ViewBag.Title = "Update";
+    Layout = "~/Views/AdminLayout/Layout.cshtml";
+}
+
+<h2>İletişim Bilgileri Güncelleme Sayfası</h2>
+
+
+<form method="post">
+
+    @Html.HiddenFor(x => x.ContactId)
+
+    <label>Telefon</label>
+    <input type="tel" class="form-control" name="Phone" value="@Model.Phone"/>
+
+    <br />
+
+    <label>Email</label>
+    <input type="email" class="form-control" name="Email" value="@Model.Email"/>
+
+    <button class="btn btn-outline-success">Güncelle</button>
+
+</form>
+

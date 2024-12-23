@@ -1,0 +1,44 @@
+﻿@model MyPortfolio_MVC.Models.TblAdmin
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/Layout.cshtml";
+}
+
+<h2>Profil Bilgileri Güncelleme Sayfası</h2>
+
+<form method="post" enctype="multipart/form-data"> 
+
+    <div class="text-center">
+        <label>Profil Resmi</label>
+        <img src="@Model.ImageUrl" style="width:75px;height:100px" alt="Profil Resmi" />
+    </div>
+    
+
+    <label>Profil Resmi Yükleyin</label>
+    <input type="file" name="ImageFile" />
+
+    <br />
+
+    <label>Ad</label>
+    <input type="text" name="Name" class="form-control" style="border-color:white" value="@Model.Name" />
+
+    <br />
+
+    <label>Soyad</label>
+    <input type="text" name="Surname" class="form-control" style="border-color:white" value="@Model.Surname" />
+
+    <br />
+
+    <label>Email</label>
+    <input type="text" name="Email" class="form-control" style="border-color:white" value="@Model.Email" />
+
+    <br />
+
+    <label>Şifreyi Girin</label>
+    <input type="password" name="Password" class="form-control" style="border-color:white" />
+
+    <br />
+    <p style="color:red">@Html.ValidationSummary()</p>
+    <button class="btn btn-outline-primary">Bilgileri Güncelle</button>
+
+</form>

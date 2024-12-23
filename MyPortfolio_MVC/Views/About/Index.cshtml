@@ -1,0 +1,37 @@
+﻿@model List<MyPortfolio_MVC.Models.TblAbout>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/Layout.cshtml";
+}
+
+<h2>Hakkımda Sayfası</h2>
+
+<table class="table table-bordered table-hover">
+
+    <tr>
+        <td>Resim</td>
+        <td>Başlık</td>
+        <td>Açıklama</td>
+        <td>Cv</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td><img src="@item.ImageUrl" style="width: 100px; height: 100px;" /></td>
+           
+            <td>@item.Title</td>
+            <td>@item.Description</td>
+            <td>@(String.IsNullOrEmpty(item.CvUrl) ? "Cv Yüklenmedi" :"Cv Yüklendi")</td>
+            <td>
+                <a href="/About/AboutUpdate/@item.AboutId" class="btn btn-outline-info">Güncelle</a>
+            </td>
+        </tr>
+    }
+
+
+</table>
+
+
+
+
+

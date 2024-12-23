@@ -9,11 +9,11 @@ namespace MyPortfolio_MVC.Controllers
 {
     public class ProjectController : Controller
     {
-        MyPortfolioEntities db = new MyPortfolioEntities();
+        MyPortfolioEntities db1 = new MyPortfolioEntities();
 
         private void CategoryDropDown()
         {
-            var categorylist = db.TblCategories.ToList();
+            var categorylist = db1.TblCategories.ToList();
 
             List<SelectListItem> Categories = (from x in categorylist
                                                select new SelectListItem
@@ -26,7 +26,7 @@ namespace MyPortfolio_MVC.Controllers
 
         public ActionResult Index()
         {
-            var projects = db.TblProjects.ToList();
+            var projects = db1.TblProjects.ToList();
             return View(projects);
         }
 
@@ -46,23 +46,23 @@ namespace MyPortfolio_MVC.Controllers
             {
                 return View(model);
             }
-            db.TblProjects.Add(model);
-            db.SaveChanges();
+            db1.TblProjects.Add(model);
+            db1.SaveChanges();
             return RedirectToAction("Index");
         }
 
         public ActionResult DeleteProject(int id)
         {
-            var value = db.TblProjects.Find(id);
-            db.TblProjects.Remove(value);
-            db.SaveChanges();
+            var value = db1.TblProjects.Find(id);
+            db1.TblProjects.Remove(value);
+            db1.SaveChanges();
             return RedirectToAction("Index");
         }
         [HttpGet]//Index sayfasındayken proje güncelle butonuna basıldığında yüklenecek bilgiler 
         public ActionResult UpdateProject(int id)
         {
             CategoryDropDown();
-            var value = db.TblProjects.Find(id);
+            var value = db1.TblProjects.Find(id);
             return View(value); 
         }
         [HttpPost]
@@ -70,7 +70,7 @@ namespace MyPortfolio_MVC.Controllers
         {
             CategoryDropDown();
 
-            var value = db.TblProjects.Find(model.ProjectId);
+            var value = db1.TblProjects.Find(model.ProjectId);
             value.Name = model.Name;
             value.GithubUrl = model.GithubUrl;
             value.Description = model.Description;
@@ -80,7 +80,7 @@ namespace MyPortfolio_MVC.Controllers
             {
                 return View(model);
             }
-            db.SaveChanges();
+            db1.SaveChanges();
             return RedirectToAction("Index");
 
 

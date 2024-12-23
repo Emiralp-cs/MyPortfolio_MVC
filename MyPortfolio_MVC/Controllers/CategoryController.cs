@@ -7,15 +7,16 @@ using System.Web.Mvc;
 
 namespace MyPortfolio_MVC.Controllers
 {
+    //Web configde yaptığımız işlemi burada tanımlayıp güvence altına alıyoruz.
     public class CategoryController : Controller
     {
-        MyPortfolioEntities db = new MyPortfolioEntities();
+        MyPortfolioEntities db1 = new MyPortfolioEntities();
 
         public ActionResult Index()
 
 
         {
-            var values = db.TblCategories.ToList();
+            var values = db1.TblCategories.ToList();
             return View(values);
         }
         [HttpGet]
@@ -32,31 +33,31 @@ namespace MyPortfolio_MVC.Controllers
             }
 
 
-            db.TblCategories.Add(category);
-            db.SaveChanges();
+            db1.TblCategories.Add(category);
+            db1.SaveChanges();
             return RedirectToAction("Index");
         }
 
         public ActionResult DeleteCategory(int id)
         {
-            var value = db.TblCategories.Find(id);
+            var value = db1.TblCategories.Find(id);
 
-            var projectExist = db.TblProjects.Where(x => x.CategoryId == value.CategoryId).Any();
+            var projectExist = db1.TblProjects.Where(x => x.CategoryId == value.CategoryId).Any();
             if (projectExist)
             {
                 TempData["categoryDeleteError"] = "Bu kategoriye ait proje bulunmaktadır. Bu Kategoriyi Silemezsiniz.";
                 return RedirectToAction("Index");
             }
-            
-            db.TblCategories.Remove(value);
-            db.SaveChanges();
+
+            db1.TblCategories.Remove(value);
+            db1.SaveChanges();
             return RedirectToAction("Index");
         }
 
         [HttpGet]
         public ActionResult UpdateCategory(int id)
-        {   
-            var value = db.TblCategories.Find(id);
+        {
+            var value = db1.TblCategories.Find(id);
             return View(value);
         }
         [HttpPost]
@@ -66,9 +67,9 @@ namespace MyPortfolio_MVC.Controllers
             {
                 return View();
             }
-            var value = db.TblCategories.Find(model.CategoryId);
+            var value = db1.TblCategories.Find(model.CategoryId);
             value.Name = model.Name;
-            db.SaveChanges();
+            db1.SaveChanges();
             return RedirectToAction("Index");
 
         }

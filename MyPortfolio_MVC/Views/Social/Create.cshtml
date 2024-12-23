@@ -1,0 +1,24 @@
+﻿@model MyPortfolio_MVC.Models.TblSocialMedia
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/AdminLayout/Layout.cshtml";
+}
+
+<h2>Sosyal Medya Ekleme Sayfası</h2>
+
+
+<form method="post">
+
+    <label>Sosyal Medya Uygulamasının Adı</label>
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+
+    <br />
+
+    <label>Sosyal Medya Hesabının Linki</label>
+    @Html.TextBoxFor(x => x.Url, new { @class = "form-control" })
+
+    <br />
+
+    <button class="btn btn-outline-success">Kaydet</button>
+
+</form>
