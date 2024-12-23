@@ -27,14 +27,19 @@ olarak yönetmemizi sağladı.__
   
   __-> Projelerim kısmında projelere tıklayarak projenin fotoğrafına açıklamasına ve Github linkine ulaşabilirler.__
 
-  
+## __✓ Admin Paneli:__
 
-  
+  __🟢 Admin Paneline şifre ile erişilebiliyor ve bu sayfada kullanıcılar UI tarafında bahsettiğim tüm kısımları CRUD işlemleri ile düzenleyebiliyor.__
 
+  __🟢 Kullanıcıların gönderdiği mesajları okuyabilir okundu veya okunmadı olarak işaretleyebilir silebilir.__
 
+  __🟢 Layout kısmında bulunan mesaj kısmında okunmayan ve en son 3 mesaj listelenir.__
 
+   __🟢 Session kısmında  ise 10 dakika olacak şekilde  session süresi eklendi bu süre dolduğunda kullanıcının tekrar giriş yapması isteniyor.__
 
+  __🟢 Banner kısmında ise aktif/pasif olarak işaretlenip UI tarafında gösterilip gösterilmemesine karar verilebilir. Banner ile ilgili CRUD işlemleri yapılabilir.__
 
+  __🟢 UI tarafında bulunan Cv yükleme ve Fotoğraf yükleme işlemleri admin panelinden yapılabiliyor.__
 
 ## Projede Kullanılan Teknolojiler:
 ✅ .NET Framwork MVC ile geliştirildi.
