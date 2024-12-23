@@ -67,7 +67,6 @@ __UI Tarafı ve Admin Paneli__
 ↑ ↑ ↑ Üstte hakkımda kısmı yer almaktadır ve bu kısımdan CV indirilebilir. ↑ ↑ ↑
 
 ↓ ↓ ↓  Aşağıda hakkımda kısmının admin paneli kısmı gösterilmiştir. ↓ ↓ ↓ 
-<img width="1268" alt="image" src="https://github.com/user-attachments/assets/72b92a93-ee9d-4f91-9adb-719a41255fb9" />
 <img width="1277" alt="image" src="https://github.com/user-attachments/assets/f4fb4ac3-2e88-4173-a09d-97cb0ef7c23a" />
 <hr style="border: none; height: 6px; background-color: #4f5b66; margin-top: 20px; margin-bottom: 20px;">
 <img width="1280" alt="Ekran görüntüsü 2024-12-23 202515" src="https://github.com/user-attachments/assets/c53c3411-3d08-42be-bccd-076c330cc9a4" />
