@@ -58,11 +58,20 @@ olarak yönetmemizi sağladı.__
 __UI Tarafı ve Admin Paneli__
 
 <img width="1265" alt="Ekran görüntüsü 2024-12-23 202332" src="https://github.com/user-attachments/assets/629399ba-ac1b-4678-b4c5-21ff556043c3" />
-↑ ↑ ↑ Üstte banner kısmı yer almaktadır ve sağ tarafta bulunan linklere tıklandığında o linklere ulaşılabilir.
+↑ ↑ ↑ Üstte banner kısmı yer almaktadır ve sağ tarafta bulunan linklere tıklandığında o linklere ulaşılabilir. ↑ ↑ ↑
 
-↓ ↓ ↓  Aşağıda banner kısmının admin paneli kısmı gösterilmiştir.
+↓ ↓ ↓  Aşağıda banner kısmının admin paneli kısmı gösterilmiştir. ↓ ↓ ↓ 
 <img width="1279" alt="Ekran görüntüsü 2024-12-23 202353" src="https://github.com/user-attachments/assets/2579f22b-6a69-4f8f-8e51-52dbd2e839a3" />
 <hr style="border: none; height: 6px; background-color: #4f5b66; margin-top: 20px; margin-bottom: 20px;">
+<img width="1280" alt="Ekran görüntüsü 2024-12-23 202427" src="https://github.com/user-attachments/assets/b25bd723-16e0-49b2-8944-43b3f0012c93" />
+↑ ↑ ↑ Üstte hakkımda kısmı yer almaktadır ve bu kısımdan CV indirilebilir. ↑ ↑ ↑
+
+↓ ↓ ↓  Aşağıda hakkımda kısmının admin paneli kısmı gösterilmiştir. ↓ ↓ ↓ 
+<img width="1280" alt="Ekran görüntüsü 2024-12-23 202501" src="https://github.com/user-attachments/assets/083e22fe-ceda-47b9-bb44-04b61418dd71" />
+<hr style="border: none; height: 6px; background-color: #4f5b66; margin-top: 20px; margin-bottom: 20px;">
+
+
+
 
 
 
