@@ -54,10 +54,13 @@ olarak yönetmemizi sağladı.__
 <img width="685" alt="image" src="https://github.com/user-attachments/assets/45e09fa5-d13e-49f0-801c-d751a55e6fda" />
 
 ## Proje Görseller ve Açıklamalar:
+
 __UI Tarafı__
 
 <img width="1265" alt="Ekran görüntüsü 2024-12-23 202332" src="https://github.com/user-attachments/assets/629399ba-ac1b-4678-b4c5-21ff556043c3" />
 📍Burada banner kısmı yer almaktadır ve sağ tarafta bulunan linklere tıklandığında o linklere ulaşılabilir.
+<hr style="border: none; height: 6px; background-color: #4f5b66; margin-top: 20px; margin-bottom: 20px;">
+
 
 
 ## Built With
