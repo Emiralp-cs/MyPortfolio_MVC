@@ -5,6 +5,22 @@ olarak yönetmemizi sağladı.__
 
 __✓ Kullanıcı Yönetimi:Admin Paneli ile şifreli giriş ve kullanıcı doğrulama sistemi bulunuyor.__
 
+__✓ UI Tarafı:Bu sayfada şunlar bulunuyor:__
+__🟢 Giriş__
+
+__🟢 Hakkımda__
+
+__🟢 Uzmanlıklarım__
+
+__🟢 Deneyimlerim__
+
+__🟢 Projelerim__
+
+__🟢 Referanslarım__
+
+__🟢 İletişim kısımlarından oluşuyor.__
+
+
 
 ## Projede Kullanılan Teknolojiler:
 ✅ .NET Framwork MVC ile geliştirildi.
