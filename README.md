@@ -87,7 +87,7 @@ __UI Tarafı ve Admin Paneli__
 <img width="1280" alt="Ekran görüntüsü 2024-12-23 202700" src="https://github.com/user-attachments/assets/b273816a-4ad9-4d26-a211-fa7b9649fb2c" />
 ↑ ↑ ↑ Üstte projelerim kısmı yer almaktadır. ↑ ↑ ↑
 
-↓ ↓ ↓  Aşağıda projelerim kısmının admin paneli kısmı gösterilmiştir.↓ ↓ ↓ 
+__↓ ↓ ↓  Aşağıda projelerim kısmının admin paneli kısmı gösterilmiştir.↓ ↓ ↓__ 
 <img width="1280" alt="Ekran görüntüsü 2024-12-23 202715" src="https://github.com/user-attachments/assets/ddc85803-9f70-461a-b50a-5b932fcf809f" />
 <hr style="border: none; height: 6px; background-color: #4f5b66; margin-top: 20px; margin-bottom: 20px;">
 <img width="1280" alt="Ekran görüntüsü 2024-12-23 202732" src="https://github.com/user-attachments/assets/1faa3146-04ed-4b0d-9d58-ecdda2628755" />
@@ -97,6 +97,20 @@ __UI Tarafı ve Admin Paneli__
 <img width="1280" alt="Ekran görüntüsü 2024-12-23 202749" src="https://github.com/user-attachments/assets/ef56d934-cf1b-431f-b276-d4827cf48f8f" />
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/05e9a41e-3d66-4aca-87ba-20039a3d62ef" />
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/1b9bc4f6-db08-4ad9-9a71-3589657e71dd" />
+<hr style="border: none; height: 6px; background-color: #4f5b66; margin-top: 20px; margin-bottom: 20px;">
+
+<img width="1280" alt="Ekran görüntüsü 2024-12-23 202807" src="https://github.com/user-attachments/assets/244e78d3-e637-4b8f-a266-b67862080cd7" />
+<img width="1280" alt="Ekran görüntüsü 2024-12-23 202823" src="https://github.com/user-attachments/assets/349e0338-e763-484e-8623-ec29b7b53760" />
+↑ ↑ ↑ Üstte Bana Ulaşın kısmı yer almaktadır. ↑ ↑ ↑
+
+↓ ↓ ↓  Aşağıda Bana Ulaşın kısmının admin paneli kısmı gösterilmiştir.↓ ↓ ↓ 
+<img width="1280" alt="Ekran görüntüsü 2024-12-23 202839" src="https://github.com/user-attachments/assets/cd7c3d9c-78d2-4669-bfb3-6ec9c165c5c7" />
+<img width="1280" alt="image" src="https://github.com/user-attachments/assets/47bbab9e-ed01-4bee-a452-608933b02c8c" />
+
+
+
+
+
 
 
 
