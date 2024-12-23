@@ -79,7 +79,7 @@ __UI Tarafı ve Admin Paneli__
 <img width="1266" alt="image" src="https://github.com/user-attachments/assets/40d505f3-a744-40e5-964a-69a1bd8e1a1f" />
 ↑ ↑ ↑ Üstte deneyimlerim ve eğitimlerim kısmı yer almaktadır. ↑ ↑ ↑
 
-↓ ↓ ↓  Aşağıda uzmanlıklarım kısmının admin paneli kısmı gösterilmiştir.↓ ↓ ↓ 
+↓ ↓ ↓  Aşağıda deneyimlerim ve eğitimlerim kısmının admin paneli kısmı gösterilmiştir.↓ ↓ ↓ 
 <img width="1280" alt="Ekran görüntüsü 2024-12-23 202622" src="https://github.com/user-attachments/assets/9e0bf00a-4edd-46e0-a967-b334bfddd4db" />
 <img width="1280" alt="Ekran görüntüsü 2024-12-23 202637" src="https://github.com/user-attachments/assets/c92d1707-cf87-4566-b8da-51bf9a32b441" />
 <hr style="border: none; height: 6px; background-color: #4f5b66; margin-top: 20px; margin-bottom: 20px;">
