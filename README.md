@@ -83,6 +83,14 @@ __UI Tarafı ve Admin Paneli__
 <img width="1280" alt="Ekran görüntüsü 2024-12-23 202622" src="https://github.com/user-attachments/assets/9e0bf00a-4edd-46e0-a967-b334bfddd4db" />
 <img width="1280" alt="Ekran görüntüsü 2024-12-23 202637" src="https://github.com/user-attachments/assets/c92d1707-cf87-4566-b8da-51bf9a32b441" />
 <hr style="border: none; height: 6px; background-color: #4f5b66; margin-top: 20px; margin-bottom: 20px;">
+<img width="1280" alt="Ekran görüntüsü 2024-12-23 202700" src="https://github.com/user-attachments/assets/b273816a-4ad9-4d26-a211-fa7b9649fb2c" />
+↑ ↑ ↑ Üstte projelerim kısmı yer almaktadır. ↑ ↑ ↑
+
+↓ ↓ ↓  Aşağıda projelerim kısmının admin paneli kısmı gösterilmiştir.↓ ↓ ↓ 
+<img width="1280" alt="Ekran görüntüsü 2024-12-23 202715" src="https://github.com/user-attachments/assets/ddc85803-9f70-461a-b50a-5b932fcf809f" />
+
+
+
 
 
 
