@@ -3,6 +3,19 @@ __My Portfolio Projesi, M&Y Yazılım Eğitim Akademi Danışmanlık bünyesinde
 Bu proje, Admin tarafında gerçekleştirdiğimiz CRUD işlemlerini kullanarak UI tarafında bilgilerimizi dinamik
 olarak yönetmemizi sağladı.__
 
+__✓ Kullanıcı Yönetimi:Admin Paneli ile şifreli giriş ve kullanıcı doğrulama sistemi bulunuyor.__
+
+
+## Projede Kullanılan Teknolojiler:
+✅ .NET Framwork MVC ile geliştirildi.
+
+✅ Database First yaklaşımı
+
+✅ Veritabanı: MSSQL
+
+✅ ORM Tool: Entity Framework 
+
+✅
 
 
 
