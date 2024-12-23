@@ -1,4 +1,4 @@
-## My Portfolio Projesi
+<img width="1280" alt="Ekran görüntüsü 2024-12-23 202637" src="https://github.com/user-attachments/assets/882132b1-473d-4f8d-8a59-7b5c2790ba5b" />## My Portfolio Projesi
 __My Portfolio Projesi, M&Y Yazılım Eğitim Akademi Danışmanlık bünyesinde tamamladığım bir projedir.
 Bu proje, Admin tarafında gerçekleştirdiğimiz CRUD işlemlerini kullanarak UI tarafında bilgilerimizi dinamik
 olarak yönetmemizi sağladı.__
@@ -76,6 +76,14 @@ __UI Tarafı ve Admin Paneli__
 <img width="1280" alt="Ekran görüntüsü 2024-12-23 202537" src="https://github.com/user-attachments/assets/c81a699d-5052-48d9-a77d-6dc4063eafa6" />
 <img width="1279" alt="image" src="https://github.com/user-attachments/assets/12aafb5f-bc41-4843-ae25-57b9e2886e75" />
 <hr style="border: none; height: 6px; background-color: #4f5b66; margin-top: 20px; margin-bottom: 20px;">
+<img width="1266" alt="image" src="https://github.com/user-attachments/assets/40d505f3-a744-40e5-964a-69a1bd8e1a1f" />
+↑ ↑ ↑ Üstte deneyimlerim ve eğitimlerim kısmı yer almaktadır. ↑ ↑ ↑
+
+↓ ↓ ↓  Aşağıda uzmanlıklarım kısmının admin paneli kısmı gösterilmiştir.↓ ↓ ↓ 
+<img width="1280" alt="Ekran görüntüsü 2024-12-23 202622" src="https://github.com/user-attachments/assets/9e0bf00a-4edd-46e0-a967-b334bfddd4db" />
+<img width="1280" alt="Ekran görüntüsü 2024-12-23 202637" src="https://github.com/user-attachments/assets/c92d1707-cf87-4566-b8da-51bf9a32b441" />
+<hr style="border: none; height: 6px; background-color: #4f5b66; margin-top: 20px; margin-bottom: 20px;">
+
 
 
 
