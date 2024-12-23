@@ -6,6 +6,7 @@ olarak yönetmemizi sağladı.__
 __✓ Kullanıcı Yönetimi:Admin Paneli ile şifreli giriş ve kullanıcı doğrulama sistemi bulunuyor.__
 
 __✓ UI Tarafı:Kullanıcılara bu kısımda portfölyömü tanıtıyorum. Bu sayfada şunlar bulunuyor:__
+
   __🟢 Giriş__
   
   __🟢 Hakkımda__
