@@ -50,8 +50,15 @@ olarak yönetmemizi sağladı.__
 
 ✅ ORM Tool: Entity Framework 
 
-## Projedeki Model:
+## Projede kullanılan Model:
 <img width="685" alt="image" src="https://github.com/user-attachments/assets/45e09fa5-d13e-49f0-801c-d751a55e6fda" />
+
+## Proje Görseller ve Açıklamalar:
+__UI Tarafı__
+
+<img width="1265" alt="Ekran görüntüsü 2024-12-23 202332" src="https://github.com/user-attachments/assets/629399ba-ac1b-4678-b4c5-21ff556043c3" />
+📍Burada banner kısmı yer almaktadır ve sağ tarafta bulunan linklere tıklandığında o linklere ulaşılabilir.
+
 
 ## Built With
 * ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
