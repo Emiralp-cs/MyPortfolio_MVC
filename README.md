@@ -5,20 +5,31 @@ olarak yönetmemizi sağladı.__
 
 __✓ Kullanıcı Yönetimi:Admin Paneli ile şifreli giriş ve kullanıcı doğrulama sistemi bulunuyor.__
 
-__✓ UI Tarafı:Bu sayfada şunlar bulunuyor:__
-__🟢 Giriş__
+__✓ UI Tarafı:Kullanıcılara bu kısımda portfölyömü tanıtıyorum. Bu sayfada şunlar bulunuyor:__
+  __🟢 Giriş__
+  
+  __🟢 Hakkımda__
+  
+  __🟢 Uzmanlıklarım__
+  
+  __🟢 Deneyimlerim__
+  
+  __🟢 Projelerim__
+  
+  __🟢 Referanslarım__
+  
+  __🟢 İletişim__
+  
+  __-> Kullanıcılar UI tarafındaki iletişim bölümünden bana mesaj gönderebiliyor.__
+  
+  __-> Sosyal medya hesaplarımı görüntüleyebilir.__
+  
+  __-> Projelerim kısmında projelere tıklayarak projenin fotoğrafına açıklamasına ve Github linkine ulaşabilirler.__
 
-__🟢 Hakkımda__
 
-__🟢 Uzmanlıklarım__
 
-__🟢 Deneyimlerim__
 
-__🟢 Projelerim__
 
-__🟢 Referanslarım__
-
-__🟢 İletişim kısımlarından oluşuyor.__
 
 
 
