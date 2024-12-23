@@ -8,6 +8,7 @@ __✓ Kullanıcı Yönetimi: Admin Paneli ile şifreli giriş ve kullanıcı do�
 ## __✓ UI Tarafı:__
 
   __Kullanıcılara bu kısımda portfölyömü tanıtıyorum. Bu sayfada şunlar bulunuyor:__
+  
   __🟢 Giriş__
   
   __🟢 Hakkımda__
