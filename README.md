@@ -1,4 +1,4 @@
-## My Portfolio Projesi
+<img width="685" alt="image" src="https://github.com/user-attachments/assets/7515a84a-9c22-491e-92c6-23f2fc02976f" />## My Portfolio Projesi
 __My Portfolio Projesi, M&Y Yazılım Eğitim Akademi Danışmanlık bünyesinde tamamladığım bir projedir.
 Bu proje, Admin tarafında gerçekleştirdiğimiz CRUD işlemlerini kullanarak UI tarafında bilgilerimizi dinamik
 olarak yönetmemizi sağladı.__
@@ -50,9 +50,8 @@ olarak yönetmemizi sağladı.__
 
 ✅ ORM Tool: Entity Framework 
 
-✅
-
-
+## Projedeki Model:
+<img width="685" alt="image" src="https://github.com/user-attachments/assets/45e09fa5-d13e-49f0-801c-d751a55e6fda" />
 
 ## Built With
 * ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
