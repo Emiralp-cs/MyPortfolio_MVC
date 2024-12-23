@@ -89,6 +89,16 @@ __UI Tarafı ve Admin Paneli__
 
 ↓ ↓ ↓  Aşağıda projelerim kısmının admin paneli kısmı gösterilmiştir.↓ ↓ ↓ 
 <img width="1280" alt="Ekran görüntüsü 2024-12-23 202715" src="https://github.com/user-attachments/assets/ddc85803-9f70-461a-b50a-5b932fcf809f" />
+<hr style="border: none; height: 6px; background-color: #4f5b66; margin-top: 20px; margin-bottom: 20px;">
+<img width="1280" alt="Ekran görüntüsü 2024-12-23 202732" src="https://github.com/user-attachments/assets/1faa3146-04ed-4b0d-9d58-ecdda2628755" />
+↑ ↑ ↑ Üstte Referanslarım kısmı yer almaktadır. ↑ ↑ ↑
+
+↓ ↓ ↓  Aşağıda referanslarım kısmının admin paneli kısmı gösterilmiştir.↓ ↓ ↓ 
+<img width="1280" alt="Ekran görüntüsü 2024-12-23 202749" src="https://github.com/user-attachments/assets/ef56d934-cf1b-431f-b276-d4827cf48f8f" />
+<img width="1280" alt="image" src="https://github.com/user-attachments/assets/05e9a41e-3d66-4aca-87ba-20039a3d62ef" />
+<img width="1280" alt="image" src="https://github.com/user-attachments/assets/1b9bc4f6-db08-4ad9-9a71-3589657e71dd" />
+
+
 
 
 
