@@ -3,8 +3,6 @@ __My Portfolio Projesi, M&Y Yazılım Eğitim Akademi Danışmanlık bünyesinde
 Bu proje, Admin tarafında gerçekleştirdiğimiz CRUD işlemlerini kullanarak UI tarafında bilgilerimizi dinamik
 olarak yönetmemizi sağladı.__
 
-__✓ Kullanıcı Yönetimi: Admin Paneli ile şifreli giriş ve kullanıcı doğrulama sistemi bulunuyor.__
-
 ## __✓ UI Tarafı:__
 
   __Kullanıcılara bu kısımda portfölyömü tanıtıyorum. Bu sayfada şunlar bulunuyor:__
