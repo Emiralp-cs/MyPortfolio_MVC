@@ -61,7 +61,7 @@ __UI Tarafı ve Admin Paneli__
 ↑ ↑ ↑ Üstte banner kısmı yer almaktadır ve sağ tarafta bulunan linklere tıklandığında o linklere ulaşılabilir. ↑ ↑ ↑
 
 ↓ ↓ ↓  Aşağıda banner kısmının admin paneli kısmı gösterilmiştir. ↓ ↓ ↓ 
-
+<img width="1278" alt="image" src="https://github.com/user-attachments/assets/bf31b158-b397-43d3-8a31-b222bf9f74f8" />
 <hr style="border: none; height: 6px; background-color: #4f5b66; margin-top: 20px; margin-bottom: 20px;">
 <img width="1268" alt="image" src="https://github.com/user-attachments/assets/6d143f35-b88a-4e77-b1e9-afa0c9ad2f75" />
 
