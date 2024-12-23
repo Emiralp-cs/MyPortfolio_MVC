@@ -1,4 +1,4 @@
-<img width="685" alt="image" src="https://github.com/user-attachments/assets/7515a84a-9c22-491e-92c6-23f2fc02976f" />## My Portfolio Projesi
+## My Portfolio Projesi
 __My Portfolio Projesi, M&Y Yazılım Eğitim Akademi Danışmanlık bünyesinde tamamladığım bir projedir.
 Bu proje, Admin tarafında gerçekleştirdiğimiz CRUD işlemlerini kullanarak UI tarafında bilgilerimizi dinamik
 olarak yönetmemizi sağladı.__
