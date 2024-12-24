@@ -42,7 +42,7 @@ olarak yönetmemizi sağladı.__
   __🟢 UI tarafında bulunan Cv yükleme ve Fotoğraf yükleme işlemleri admin panelinden yapılabiliyor.__
 
 ## Projede Kullanılan Teknolojiler:
-✅ .NET Framwork MVC ile geliştirildi.
+✅ .NET Framework MVC ile geliştirildi.
 
 ✅ Database First yaklaşımı
 
