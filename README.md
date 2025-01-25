@@ -106,4 +106,4 @@ __↓ ↓ ↓  Aşağıda projelerim kısmının admin paneli kısmı gösterilm
 ↓ ↓ ↓  Aşağıda Bana Ulaşın kısmının admin paneli kısmı gösterilmiştir.↓ ↓ ↓ 
 <img width="1280" alt="Ekran görüntüsü 2024-12-23 202839" src="https://github.com/user-attachments/assets/cd7c3d9c-78d2-4669-bfb3-6ec9c165c5c7" />
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/47bbab9e-ed01-4bee-a452-608933b02c8c" />
-[![Image](https://i.hizliresim.com/s9jz0fn.png)](https://hizliresim.com/s9jz0fn)
+<a href="https://hizliresim.com/s9jz0fn"><img src="https://i.hizliresim.com/s9jz0fn.png" alt="Resim Yükle"></a>
